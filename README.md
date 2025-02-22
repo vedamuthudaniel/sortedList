@@ -99,7 +99,7 @@ Contributions are welcome! If you have suggestions or improvements:
 
 **Daniel Vedamuthu**
 
-- **Version:** 1.0  
+- **Version:** 1.1 (Maintenance Update)
 - **Date:** 2025-02-06
 
 ---
