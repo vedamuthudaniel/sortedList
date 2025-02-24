@@ -6,7 +6,7 @@ A Java application that reads integer numbers from the console, stores them in a
 
 ## Overview
 
-The **SortedList** program has a maintenance update of the previous version. This update replaces the **LinkedList** with a **Stack** while maintaining the same core functionality:
+The **SortedList** program demonstrates basic Java functionalities including:
 - **Input Processing:** Reads user input using `Scanner`. Each input is trimmed and parsed as an integer.
 - **Data Storage:** Utilizes a `Stack<Integer>` for dynamic storage of the numbers. See the Maintenance Update Details section on the recent changes.
 - **Sorting:** Utilizes `Collections.sort()` to sort the stack in ascending order.
