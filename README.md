@@ -8,7 +8,7 @@ A Java application that reads integer numbers from the console, stores them in a
 
 The **SortedList** program has a maintenance update of the previous version. This update replaces the **LinkedList** with a **Stack** while maintaining the same core functionality:
 - **Input Processing:** Reads user input using `Scanner`. Each input is trimmed and parsed as an integer.
-- **Data Storage:** Uses a `Stack<Integer>` instead of a `LinkedList<Integer>` from the previous version.
+- **Data Storage:** Utilizes a `Stack<Integer>` for dynamic storage of the numbers. See the Maintenance Update Details section on the recent changes.
 - **Sorting:** Utilizes `Collections.sort()` to sort the stack in ascending order.
 - **Output:** Displays the sorted list on the console.
 
@@ -26,7 +26,7 @@ The **SortedList** program has a maintenance update of the previous version. Thi
 
 ## Maintenance Update Details
 
-- The original **SortedList** stored integers using a `LinkedList<Integer>`. This update modifies the implementation to use a `Stack<Integer>`.
+- The original **SortedList** stored integers using a `LinkedList<Integer>`. This version update modifies the implementation to use a `Stack<Integer>`.
 - This change introduces a LIFO structure where needed while keeping the core logic (input, sorting, and output) unchanged.
 - The input processing, sorting, and error handling remain the same, demonstrating effective **code reuse**.
 
